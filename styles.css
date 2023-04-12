@@ -11,7 +11,7 @@
 
 .items * {
     position: absolute;
-    bottom: 129px;
+    bottom: 130px;
 }
 
 /* nigel */
@@ -34,4 +34,49 @@
 .iglo {
     bottom: 113px;
     left: 133px;
+}
+
+/* dennis */
+
+.dennis .items * {
+    bottom: 135px;
+}
+
+.parasol {
+    left: 50px;
+}
+
+.bankje {
+    left: 100px;
+}
+
+.surfplank {
+    left: 130px;
+}
+
+.dennis .waterval2 {
+    left: 155px;
+    bottom: 0px;
+}
+
+/* casper */
+
+.casper .items * {
+    bottom: 127px;
+}
+
+.rood {
+    left: 25px;
+}
+
+.blauw {
+    left: 95px;
+}
+
+.paars {
+    left: 105px;
+}
+
+.groen {
+    left: 150px;
 }
