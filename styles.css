@@ -1,4 +1,4 @@
-body > section {
+.eilanden > section {
     background-color: red;
     display: flex;
     justify-content: center;
@@ -11,17 +11,27 @@ body > section {
 
 .items * {
     position: absolute;
-    bottom: 128px;
+    bottom: 129px;
 }
 
 /* nigel */
 
 .lantern {
     left: 85px;
-    bottom: 130px;
+    bottom: 132px;
 }
 
 .waterval {
-    bottom: -4px;
-    left: 115px;
+    bottom: -2px;
+    left: 110px;
+}
+
+.hekje {
+    left: 109px;
+    bottom: 132px;
+}
+
+.iglo {
+    bottom: 113px;
+    left: 133px;
 }
