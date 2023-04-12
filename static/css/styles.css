@@ -1,0 +1,36 @@
+.bomen {
+    position: absolute;
+    bottom: 205px;
+    z-index: -1;
+    left: 0;
+}
+
+.struik {
+    position: absolute;
+    bottom: 205px;
+    z-index: -1;
+    left: 70px;
+}
+
+.waterval {
+    position: absolute;
+    bottom: 80px;
+    
+    left: 85px;
+}
+
+.eilanddaniel {
+   
+}
+
+section {
+    position: relative;
+    width: 15em;
+    height: 15em;
+    left: 10em;
+    top: 10em;
+}
+
+body {
+    position: relative;
+}
