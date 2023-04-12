@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    position: relative;
+    background-color: lightblue;
+    width: 15em;
+    height: 15em;
+}
+
+svg:nth-child(1) {
+    position: absolute;
+    bottom: 135px;
+    z-index: 2;
+}
+
+svg:nth-child(2) {
+    position: absolute;
+    bottom: 135px;
+    left: 10px; 
+    z-index: 1;
+}
+
+svg:nth-child(3) {
+    position: absolute;
+    bottom: 130px;
+    left: 80px;
+    z-index: 1;
+}
+
+svg:nth-child(4) {
+    position: absolute;
+    bottom: 0;
+}
