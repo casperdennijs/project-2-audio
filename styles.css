@@ -1,0 +1,27 @@
+body > section {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 15em;
+    aspect-ratio: 1/1;
+    border: black 6px dashed;
+    position: relative;
+}
+
+.items * {
+    position: absolute;
+    bottom: 128px;
+}
+
+/* nigel */
+
+.lantern {
+    left: 85px;
+    bottom: 130px;
+}
+
+.waterval {
+    bottom: -4px;
+    left: 115px;
+}
