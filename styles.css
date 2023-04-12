@@ -91,3 +91,18 @@
     left: 145px;
     bottom: 0;
 }
+
+/* brent */
+
+.brent .items * {
+    bottom: 135px;
+}
+
+.brent .kist {
+    left: 145px;
+    bottom: 130px;
+}
+
+.vuur {
+    left: 70px;
+}
