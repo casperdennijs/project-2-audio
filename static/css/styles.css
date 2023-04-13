@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.islands {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.island {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+
+.main {
+    width: 250px;
+    height: 250px;
+}
+
+.one {
+    transform: translateY(-350px);
+}
+
+.two {
+    transform: translateY(-100px) translateX(400px);
+}
+
+.three {
+    transform: translateY(300px) translateX(250px);
+}
+
+.four {
+    transform: translateY(300px) translateX(-250px);
+}
+
+.five {
+    transform: translateY(-100px) translateX(-400px);
+}
+
