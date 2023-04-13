@@ -40,11 +40,15 @@ body {
 
 /* Main island */
 .playbutton {
-    bottom: 100px;
+    bottom: 190px;
+    left: 15px;
+    z-index: -1;
 }
 
 .bpmcontrol {
-    bottom: 100px;
+    bottom: 180px;
+    left: 105px;
+    z-index: -1;
 }
 
 
