@@ -3,11 +3,15 @@ body {
     flex-direction: column;
     gap: 1em;
 }
+
 .eilanden  {
     display: flex;
     justify-content: center;
     gap: 1em;
     flex-wrap: wrap;
+    /* hier */
+    transform-origin: top;
+    transform: scale(0.6);
 }
 
 .eilanden > section {
