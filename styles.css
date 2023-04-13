@@ -1,3 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.eilanden  {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
 .eilanden > section {
     background-color: red;
     display: flex;
@@ -9,6 +20,13 @@
     position: relative;
 }
 
+.eilanden .mainIsland {
+    width: 25em;
+}
+
+.casper, .dennis {
+    height: 15em;
+}
 .items * {
     position: absolute;
     bottom: 130px;
