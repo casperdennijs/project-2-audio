@@ -213,3 +213,7 @@ body {
 .items * {
     position: absolute;
 }
+
+.hidden {
+    opacity: 35%;
+}
