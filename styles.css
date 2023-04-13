@@ -1,0 +1,26 @@
+.eilanden > section {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    aspect-ratio: 1/1;
+    border: black 6px dashed;
+    position: relative;
+}
+
+.items * {
+    position: absolute;
+    bottom: 130px;
+}
+
+
+/* main */
+.playbutton {
+   left: 200px;
+   bottom: 179px; 
+}
+
+.bpmcontrol {
+    left: 200px;
+    bottom: 179px; 
+ }
