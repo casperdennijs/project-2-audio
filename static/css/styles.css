@@ -11,6 +11,11 @@ html, body {
     align-items: center;
 }
 
+body {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+}
+
 .islands {
     position: relative;
     display: flex;
@@ -28,25 +33,56 @@ html, body {
 .main {
     width: 250px;
     height: 250px;
+    background-color: blue;
 }
 
 .one {
-    transform: translateY(-350px);
+    top: -300px;
 }
 
 .two {
-    transform: translateY(-100px) translateX(400px);
+    top: -50px;
+    left: 500px;
 }
 
 .three {
-    transform: translateY(300px) translateX(250px);
+    top: 350px;
+    left: 350px;
 }
 
 .four {
-    transform: translateY(300px) translateX(-250px);
+    top: 350px;
+    right: 350px;
 }
 
 .five {
-    transform: translateY(-100px) translateX(-400px);
+    top: -50px;
+    right: 500px;
 }
 
+.animation {
+    animation: popup 1s;
+}
+
+@keyframes popup {
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.island > section {
+    position: relative;
+}
+
+.island > section > svg {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+}
+
+.items * {
+    position: absolute;
+}
