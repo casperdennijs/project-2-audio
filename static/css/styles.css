@@ -27,14 +27,141 @@ body {
     position: absolute;
     width: 150px;
     height: 150px;
-    background-color: blue;
 }
 
 .main {
     width: 250px;
     height: 250px;
-    background-color: blue;
 }
+
+.items * {
+    position: absolute;
+}
+
+/* Main island */
+.playbutton {
+    bottom: 100px;
+}
+
+.bpmcontrol {
+    bottom: 100px;
+}
+
+
+/* Nigel */
+.nigel .bomen {
+    left: 10px;
+}
+
+.iglo {
+    left: 80px;
+    bottom: -50px;
+}
+
+.waterval {
+    bottom: -165px;
+    left: 60px;
+    z-index: 10;
+}
+
+.lantern {
+    left: 40px;
+    bottom: -30px;
+}
+
+.hekje {
+    left: 58px;
+    bottom: -30px; 
+}
+
+
+/* Brent */
+.draak {
+    bottom: -25px;
+    z-index: 11;
+    left: 3px;
+}
+
+.kist {
+    bottom: -30px;
+    z-index: 11;
+    left: 93px;
+}
+
+.vuur {
+    left: 37px;
+    bottom: -25px;
+    z-index: 10;
+}
+
+
+/* Daniel */
+.daniel .bomen {
+    bottom: -33px;
+    left: 10px;
+}
+
+.struik {
+    bottom: -31px;
+    left: 80px;
+}
+
+.waterval3 {
+    left: 94px;
+    bottom: -156px;
+    z-index: 1;
+}
+
+
+/* Casper */
+.rood {
+    bottom: -35px;
+    left: -17px;
+}
+
+.blauw {
+    bottom: -35px;
+    left: 53px;
+}
+
+.paars {
+    bottom: -33px;
+    left: 53px;
+}
+
+.groen {
+    bottom: -33px;
+    left: 97px;
+}
+
+/* Dennis */
+.dennis {
+    transform: scale(0.8);
+}
+
+.dennis > svg {
+    bottom: -189px;
+}
+
+.parasol {
+    bottom: -43px;
+}
+
+.waterval2 {
+    left: 109px;
+    bottom: -175px;
+    z-index: 10;
+}
+
+.bankje {
+    bottom: -40px;
+    left: 63px;
+}
+
+.surfplank {
+    left: 90px;
+}
+
 
 .one {
     top: -300px;
