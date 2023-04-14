@@ -27,6 +27,16 @@ body {
     position: absolute;
     width: 150px;
     height: 150px;
+    cursor: pointer;
+}
+
+.mainIsland {
+    cursor: pointer;
+}
+
+.playbutton {
+    cursor: pointer;
+    z-index: 90000000;
 }
 
 .main {
